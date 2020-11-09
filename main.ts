@@ -1,5 +1,8 @@
 light.setBrightness(10)
 while (true) {
+    pause(300)
+    light.clear()
+    pause(300)
     light.setPixelColor(0, light.rgb(255, 100, 0))
     light.setPixelColor(1, light.rgb(245, 255, 0))
     light.setPixelColor(2, light.rgb(20, 245, 20))
@@ -10,7 +13,4 @@ while (true) {
     light.setPixelColor(7, light.rgb(190, 95, 227))
     light.setPixelColor(8, light.rgb(245, 66, 212))
     light.setPixelColor(9, light.rgb(242, 48, 78))
-    pause(2000)
-    light.clear()
-    pause(2000)
 }
