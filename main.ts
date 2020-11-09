@@ -21,4 +21,6 @@ while (true) {
     light.setPixelColor(8, light.rgb(245, 66, 212))
     pause(300)
     light.setPixelColor(9, light.rgb(242, 48, 78))
+    pause(300)
+    light.clear()
 }
